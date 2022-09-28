@@ -29,4 +29,4 @@ The same script can also be used to stop, start and update the node. Run `./ethd
 
 > The documentation does not show `sudo` for docker commands. If your
 > user is not part of the `docker` group, you will need `sudo`. For example, `sudo docker ps`
-> instead of just `docker ps`
+> instead of just `docker ps`.  To add your user to the `docker` group, follow the steps in the Docker [post-install guide](https://docs.docker.com/engine/install/linux-postinstall/).
